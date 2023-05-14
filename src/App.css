@@ -1,0 +1,70 @@
+
+/* Reset default margin and padding */
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set default font family and font size */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: rgb(108, 158, 190);
+}
+
+/* Container styles */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Heading styles */
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Form styles */
+.todo-form {
+  margin-bottom: 20px;
+}
+
+.todo-form input[type="text"] {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+.todo-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #0e8712;
+  color: #fff;
+  border: none;
+}
+
+/* Todo item styles */
+.todo-item {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.todo-item input[type="checkbox"] {
+  margin-right: 20px;
+}
+
+.todo-item button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
